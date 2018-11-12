@@ -175,6 +175,9 @@ data MIX a = MIX
 instance Zeroed a => Lower (MIX a) where
   lowerBound = MIX lowerBound lowerBound False EQ
 
+nth :: forall n a. Finite n -> Vector n a -> a
+nth = flip Vector.index
+
 main :: IO ()
 main = do
   let zero = lowerBound :: MIX Bin

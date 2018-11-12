@@ -2,7 +2,7 @@ name:                hix
 version:             0.1.0.0
 synopsis:            An implementation of Knuth's MIX architecture.
 homepage:            https://github.com/patrickt/hix#
-license:             BSD3
+license:             OtherLicense
 license-file:        LICENSE
 author:              Patrick Thomson
 maintainer:          patrickt@github.com
